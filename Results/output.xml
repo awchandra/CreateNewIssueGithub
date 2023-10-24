@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231024 19:55:43.982" rpa="false" schemaversion="4">
+<suite id="s1" name="endToEndCreateIssueTest" source="C:\Github Project\CreateNewIssueGithub\tests\endToEndCreateIssueTest.robot">
+<test id="s1-t1" name="User Able To Create New Issue in Github Repo" line="8">
+<kw name="resources.Begin Web Test" type="SETUP">
+<msg timestamp="20231024 19:55:44.044" level="FAIL">No keyword with name 'resources.Begin Web Test' found.</msg>
+<status status="FAIL" starttime="20231024 19:55:44.029" endtime="20231024 19:55:44.044"/>
+</kw>
+<kw name="resources.End Web Test" type="TEARDOWN">
+<msg timestamp="20231024 19:55:44.044" level="FAIL">No keyword with name 'resources.End Web Test' found.</msg>
+<status status="FAIL" starttime="20231024 19:55:44.044" endtime="20231024 19:55:44.044">No keyword with name 'resources.End Web Test' found.</status>
+</kw>
+<doc>This is to test end to end create new issue</doc>
+<tag>Functional Test</tag>
+<status status="FAIL" starttime="20231024 19:55:44.029" endtime="20231024 19:55:44.044">Setup failed:
+No keyword with name 'resources.Begin Web Test' found.
+
+Also teardown failed:
+No keyword with name 'resources.End Web Test' found.</status>
+</test>
+<status status="FAIL" starttime="20231024 19:55:43.982" endtime="20231024 19:55:44.044"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Functional Test</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="endToEndCreateIssueTest">endToEndCreateIssueTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231024 19:55:44.029" level="ERROR">Error in file 'C:\Github Project\CreateNewIssueGithub\tests\endToEndCreateIssueTest.robot' on line 2: Resource file 'Resources\resources.robot' does not exist.</msg>
+</errors>
+</robot>
